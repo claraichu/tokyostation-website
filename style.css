@@ -26,7 +26,7 @@ body {
     color: #000;
 }
 
-.maincontent {width: 500px; border: none; position: absolute; left: 50%; margin-left: -250px; text-align: center; padding-top: 80px;}
+.maincontent {width: 500px; border: none; position: absolute; left: 50%; margin-left: -250px; text-align: center; padding-top: 40px;}
 
 .maincontent .mainlogo {width: 240px; margin-bottom: 20px; display: inline-block;}
 .maincontent .mainlinks {background: #000; padding: 16px 40px; margin: 10px 5px 20px 5px; color: #fff; text-decoration: none; display: inline-block;  font-family: 'DosisSemiBold'; font-size: 22px; border-radius: 4px; }
@@ -57,4 +57,11 @@ h2 {margin: 10px 0 15px 0;}
 	.maincontent a.mainlinks {display: block; width: 30%; margin: 10px auto;}
 	.maincontent a.mainlinks:nth-of-type(2){margin-bottom:30px;}
 .maincontent .short_separator {margin: 10px 0;}
+}
+
+.topbar {
+    text-align: center;
+    background: white;
+    padding: 16px;
+    border-radius: 4px;
 }
